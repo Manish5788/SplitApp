@@ -9,7 +9,7 @@
     <Page
         id="page"
         title="Product Detail Page"
-        showNavButton="false"
+        showNavButton="true"
         navButtonPress="onNavBack"
         navButtonTooltip="Simon Go Back"
     >
@@ -44,7 +44,7 @@
                         />
                         <Text
                             id="nameText"
-                            text="{productId}"
+                            text="{myModel>productId}"
                         />
                         <Label
                             id="_IDGenLabel2"
@@ -52,7 +52,7 @@
                         />
                         <Text
                             id="_IDGenText1"
-                            text="{productName}"
+                            text="{myModel>productName}"
                         />
                         <Label
                             id="_IDGenLabel3"
@@ -60,7 +60,7 @@
                         />
                         <Text
                             id="_IDGenText2"
-                            text="{productQuantity}"
+                            text="{myModel>productQuantity}"
                         />
                         <Label
                             id="_IDGenLabel4"
@@ -68,13 +68,14 @@
                         />
                         <Text
                             id="countryText"
-                            text="{productPrice}"
+                            text="{myModel>productPrice}"
                         />
                            <Label
                             id="_IDGenLabel5"
                             text="Product Image"
                         />
-                        <ImageContent id="img1" src="{productImage}"></ImageContent>
+                	<Link id="_IDGenLink1" text="Image Url" href="{myModel>productImage}" />
+        
                     </f:content>
                 </f:SimpleForm>
             </VBox>

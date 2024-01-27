@@ -129,7 +129,9 @@
 				},
         "productDetails": {
           "viewId": "product",
-					"viewName": "Product"
+					"viewName": "Product",
+          "controlAggregation": "detailPages",	
+          "viewLevel": 2
 				}
       }
     },
