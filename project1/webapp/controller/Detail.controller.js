@@ -26,7 +26,7 @@ sap.ui.define([
                 this.getView().bindElement({path: "/orders/" + this._orderId , model: "myModel"});
             },
             onSelectionChange: function(oEvent) {
-                var sProductId = oEvent.getSource().getBindingContext().getProperty("productId");
+                var sProductId = oEvent.getSource().getBindingContext("myModel").getProperty("productId");
                 this.getOwnerComponent().getRouter()
                     .navTo("productDetails",
                         {orderId:this._orderId, productId: sProductId});
