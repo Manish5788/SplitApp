@@ -47,6 +47,7 @@
             <Table
                 id="_IDGenTable1"
                 headerText="Product List"
+                noDataText="Taal se taal Mila"
                 items="{myModel>products}"
             >
                 <headerToolbar>

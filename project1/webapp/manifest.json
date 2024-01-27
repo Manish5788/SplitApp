@@ -105,6 +105,11 @@
 					"name": "orderDetails",
 					"pattern": "orders/:orderId:",
 					"target": ["master", "orderDetails"]
+				},
+        {
+					"name": "productDetails",
+					"pattern": "orders/:orderId:/:productId:",
+					"target": ["productDetails"]
 				}
       ],
       "targets": {
@@ -121,6 +126,11 @@
 					"viewName": "Detail",
 					"controlAggregation": "detailPages",
 					"viewLevel": 1
+				},
+        "productDetails": {
+          "viewId": "product",
+					"viewName": "Product",
+					"viewLevel": 2
 				}
       }
     },
