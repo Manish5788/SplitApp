@@ -10,6 +10,7 @@
     >
         <content>
             <ObjectHeader
+            
                 id="_IDGenObjectHeader1"
                 icon="/images/3.jpg"
                 iconDensityAware="false"

@@ -12,6 +12,7 @@
 
             <List
                 id="orders"
+                
                 items="{order>/orders}"
                 mode="SingleSelectMaster"
                 selectionChange="onSelectionChange"

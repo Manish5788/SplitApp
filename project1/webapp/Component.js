@@ -13,6 +13,7 @@ sap.ui.define([
         return UIComponent.extend("project1.Component", {
             metadata: {
                 manifest: "json"
+                
             },
 
             /**
