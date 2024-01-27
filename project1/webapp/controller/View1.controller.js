@@ -16,7 +16,6 @@ sap.ui.define([
 
             // set explored app's demo model on this sample
 			//var oModel = new JSONModel("/model/data.json");
-            
             var oModel = this.getOwnerComponent().getModel("myJsonData");
             //this.getView().setModel(oModel, "myModel");
 			this.getView().setModel(oModel,'order');

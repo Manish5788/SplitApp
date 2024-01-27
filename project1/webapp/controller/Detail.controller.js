@@ -18,10 +18,7 @@ sap.ui.define([
                 this.getOwnerComponent().getRouter().getRoute("orderDetails").attachPatternMatched(this._onRouteMatched, this);
             },
             _onRouteMatched: function(oEvent) {
-                // var oSelectedItem = oEvent.getSource();
-
-                
-
+                // var oSelectedItem = oEvent.getSource() ; 
 			    // //var oContext = oSelectedItem.getBindingContext("order");
 
 			    // var sPath = oContext.getPath();
