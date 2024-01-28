@@ -1,13 +1,15 @@
 sap.ui.define([
     "sap/ui/core/mvc/Controller",
     "sap/ui/core/routing/History",
-    "sap/ui/Device"
+    "sap/ui/Device",
+    "sap/ui/model/Filter",
+	"sap/ui/model/FilterOperator"
 
 ],
     /**
      * @param {typeof sap.ui.core.mvc.Controller} Controller
      */
-    function (Controller,History,Device) {
+    function (Controller,History,Device,Filter,FilterOperator) {
         "use strict";
 
         return Controller.extend("project1.controller.Detail", {

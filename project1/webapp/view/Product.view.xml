@@ -74,7 +74,7 @@
                             id="_IDGenLabel5"
                             text="Product Image"
                         />
-                	<Link id="_IDGenLink1" text="Image Url" href="{myModel>productImage}" />
+                	<Link id="_IDGenLink1" text="Image Url" href="{myModel>productImage}" target="_blank" />
         
                     </f:content>
                 </f:SimpleForm>
