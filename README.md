@@ -5,3 +5,7 @@ This is an UI5 application which shows an SplitApp application with master and d
 
 # SplitApp Images
 <img width="960" alt="Splitapp 2" src="https://github.com/Manish5788/SplitApp/assets/29253479/30ac8dd2-008e-4e2c-9c2d-659a12299935">
+
+# SplitApp Images Panel
+<img width="960" alt="APP PANEL" src="https://github.com/Manish5788/SplitApp/assets/29253479/b4a654cc-dcfd-4c03-8308-ae45bf035ef9">
+
